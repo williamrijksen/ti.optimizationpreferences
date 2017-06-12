@@ -1,0 +1,19 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armeabi armeabi-v7a x86
+description: ti.optimizationpreferences
+respackage: ti.optimizationpreferences
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2017 by Your Company
+
+# these should not be edited
+name: ti.optimizationpreferences
+moduleid: ti.optimizationpreferences
+guid: dc8bd662-3adf-4aa7-b2a3-cb466aaeeae3
+platform: android
+minsdk: 5.5.1.GA
