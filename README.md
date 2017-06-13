@@ -26,9 +26,9 @@ Inspired by:
 1. Show the warning and give the end-user the possiblility to add the app to protected apps
 
    ```js
-// need warning checks the huawei/samsung activities exists
-if (OS_ANDROID && require('ti.optimizationpreferences').needWarning()) {
+   // need warning checks the huawei/samsung activities exists
+   if (OS_ANDROID && require('ti.optimizationpreferences').needWarning()) {
 	    require('ti.optimizationpreferences').check();
-}
+   }
    ```
    
