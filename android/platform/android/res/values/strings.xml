@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="ti_optimizationpreferences_huawei_title">Huawei</string>
+    <string name="ti_optimizationpreferences_huawei_message">You have to change the power plan to “normal” under settings → power saving to let application be exact on time.</string>
+    <string name="ti_optimizationpreferences_samsung_title">Samsung</string>
+    <string name="ti_optimizationpreferences_samsung_message">Consider disabling Samsung SmartManager to keep application running in background.</string>
+    <string name="ti_optimizationpreferences_settings">Settings</string>
+    <string name="ti_optimizationpreferences_dont_show_again">Don\'t show again</string>
+</resources>

@@ -18,7 +18,7 @@ Inspired by:
 
     ```xml
     <modules>
-      <module platform="android" version="1.0.0">ti.optimizationpreferences</module>
+      <module platform="android" version="1.1.0">ti.optimizationpreferences</module>
     </modules>
     ```
 
@@ -26,9 +26,16 @@ Inspired by:
 1. Show the warning and give the end-user the possiblility to add the app to protected apps
 
    ```js
-   // need warning checks the huawei/samsung activities exists
-   if (OS_ANDROID && require('ti.optimizationpreferences').needWarning()) {
-	    require('ti.optimizationpreferences').check();
-   }
+   if (!OS_ANDROID) {
+        return;
+    }
+
+    var optimizationpreferences = require('ti.optimizationpreferences'),
+		 brands = [optimizationpreferences.HUAWEI, optimizationpreferences.SAMSUNG];
+
+    // need warning checks the huawei/samsung activities exists
+    if (optimizationpreferences.needWarning(brands)) {
+        optimizationpreferences.check(brands);
+    }
    ```
    
