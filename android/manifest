@@ -3,8 +3,8 @@
 # during compilation, packaging, distribution, etc.
 #
 version: 1.1.0
-apiversion: 2
-architectures: armeabi armeabi-v7a x86
+apiversion: 3
+architectures: armeabi-v7a x86
 description: ti.optimizationpreferences
 author: William Rijksen
 license: Apache License, Version 2.0
@@ -15,4 +15,4 @@ name: ti.optimizationpreferences
 moduleid: ti.optimizationpreferences
 guid: dc8bd662-3adf-4aa7-b2a3-cb466aaeeae3
 platform: android
-minsdk: 5.5.1.GA
+minsdk: 6.0.0.GA
